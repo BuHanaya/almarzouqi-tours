@@ -32,21 +32,22 @@
       position: fixed; top: 0; width: 100%; z-index: 100;
       display: flex; align-items: center; justify-content: space-between;
       padding: 1.2rem 3rem;
-      background: rgba(26,58,42,0.92);
+      background: rgba(255,255,255,0.97);
       backdrop-filter: blur(12px);
       border-bottom: 1px solid rgba(82,183,136,0.2);
+      box-shadow: 0 2px 16px rgba(26,58,42,0.08);
     }
     .nav-logo img {
       height: 44px; width: auto;
-      filter: brightness(10);
+      filter: none;
     }
     .nav-links { display: flex; gap: 2rem; list-style: none; }
     .nav-links a {
-      color: var(--green-pale); text-decoration: none;
+      color: var(--green-deep); text-decoration: none;
       font-size: 0.95rem; font-weight: 500;
       transition: color .3s;
     }
-    .nav-links a:hover { color: var(--gold); }
+    .nav-links a:hover { color: var(--green-light); }
 
     /* ── HERO ── */
     .hero {
