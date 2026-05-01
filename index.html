@@ -36,11 +36,10 @@
       backdrop-filter: blur(12px);
       border-bottom: 1px solid rgba(82,183,136,0.2);
     }
-    .nav-logo {
-      font-size: 1.5rem; font-weight: 900; color: var(--green-pale);
-      letter-spacing: 1px;
+    .nav-logo img {
+      height: 44px; width: auto;
+      filter: brightness(0) invert(1);
     }
-    .nav-logo span { color: var(--gold); }
     .nav-links { display: flex; gap: 2rem; list-style: none; }
     .nav-links a {
       color: var(--green-pale); text-decoration: none;
@@ -290,7 +289,7 @@
 
 <!-- NAV -->
 <nav>
-  <div class="nav-logo">المرزوقي <span>✦</span></div>
+  <div class="nav-logo"><img src="logo.png" alt="المرزوقي"/></div>
   <ul class="nav-links">
     <li><a href="#events">الفعاليات</a></li>
     <li><a href="#about">عن الشركة</a></li>
@@ -301,6 +300,7 @@
 <!-- HERO -->
 <section class="hero">
   <div class="hero-badge">✦ شركة المرزوقي للسياحة والسفر</div>
+  <img src="logo.png" alt="المرزوقي" style="height:70px; width:auto; margin-bottom:1.5rem; filter: brightness(0) invert(1);"/>
   <h1>اكتشف العالم<br/><em>بعيون مختلفة</em></h1>
   <p>نقدم لك أجمل الفعاليات والرحلات السياحية، مصممة بعناية لتمنحك تجربة لا تُنسى في قلب الطبيعة.</p>
   <a href="#events" class="hero-btn">استعرض الفعاليات ↓</a>
